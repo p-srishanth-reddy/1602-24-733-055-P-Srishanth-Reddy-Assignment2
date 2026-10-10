@@ -1,0 +1,41 @@
+:root {
+  --paper: #f2f6f8;
+  --ink: #142b3a;
+  --muted: #5b6d78;
+  --line: #bdcbd3;
+  --blue: #315ce8;
+  --orange: #ef5b3f;
+  --yellow: #fff16a;
+  --sans: 'Arial Narrow', 'Trebuchet MS', sans-serif;
+  --mono: 'Courier New', monospace;
+  color: var(--muted);
+  background: var(--paper);
+  color-scheme: light;
+  font: 16px/1.5 var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-image:
+    linear-gradient(rgba(49, 92, 232, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(49, 92, 232, 0.045) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+}
